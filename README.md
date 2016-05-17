@@ -8,12 +8,16 @@ run the plugin via :
 
 $(yourElement).waypoints();
 
+Inside your html, place an element with data-attribute like so:
+
+<img data-animate="animate" data-waypoint="anyElement" alt="ImageNeedsAnAltTag">
+
 Options:
 
-scrollTopOffset: 25 // offset from top 
-addedClass: 'animate' // class added to element for applying css transitions
-menuClass: '.main' // for calculating fixed menu height
-activeOnWidth: 700 //screen width on wich the plugin is active
+- scrollTopOffset: 25 // offset from top 
+- addedClass: 'animate' // class added to element for applying css transitions
+- menuClass: '.main' // for calculating fixed menu height
+- activeOnWidth: 700 //screen width on wich the plugin is active
 
 ## Motivation
 
