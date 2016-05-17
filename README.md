@@ -10,7 +10,9 @@ $(yourElement).waypoints();
 
 Inside your html, place an element with data-attribute like so:
 
-- // <div data-animate="animate" data-waypoint="anyElement"> </div>
+```html
+<div data-animate="animate" data-waypoint="anyElement"> </div>
+```
 
 Options:
 
