@@ -31,7 +31,7 @@ Options:
 - scrollTopOffset: 25 // offset from top 
 - addedClass: 'animate' // class added to element for applying css transitions
 - menuClass: '.main' // for calculating fixed menu height
-- activeOnWidth: 700 //screen width on wich the plugin is active
+- activeOnWidth: 700 //screen width on which the plugin is active
 
 ## Motivation
 
