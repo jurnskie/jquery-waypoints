@@ -6,7 +6,9 @@ A plugin for adding specified css classes to given elements, via data-animate at
 
 run the plugin via :
 
+```javascript
 $(yourElement).waypoints();
+````
 
 Inside your html, place an element with data-attribute like so:
 
