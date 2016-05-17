@@ -1,6 +1,6 @@
 ## Synopsis
 
-A plugin for adding specified css classes to given elements, via data-animate attribute on the element.
+A plugin for adding specified css classes to given elements, via the data-animate attribute on the element.
 
 ## Code Example
 
