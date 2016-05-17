@@ -10,7 +10,7 @@ $(yourElement).waypoints();
 
 Inside your html, place an element with data-attribute like so:
 
-- // <img data-animate="animate" data-waypoint="anyElement" alt="ImageNeedsAnAltTag">
+- // <div data-animate="animate" data-waypoint="anyElement"> </div>
 
 Options:
 
