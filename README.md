@@ -12,8 +12,16 @@ $(yourElement).waypoints();
 
 Inside your html, place an element with data-attribute like so:
 
+This wil trigger the addClass method on given waypoint, when the element reaches the top of window scrollposition.
+
 ```html
 <div data-animate="animate" data-waypoint="anyElement"> </div>
+```
+
+As an alternative you can trigger the addClass method when the given element is in the viewport via:
+
+```html
+<div data-animate="animate" data-section="mySection"> </div>
 ```
 
 Options:
