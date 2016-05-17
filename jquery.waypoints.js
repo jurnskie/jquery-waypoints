@@ -1,6 +1,6 @@
 /**
- * Waypoints v1.0 - Add css classes on given waypoints
- * http://github.com/jurnskie/waypoints
+ * Waypoints v1.0 - Add css classes on given waypoints, for animating via css transitions
+ * http://github.com/jurnskie/jquery-waypoints
  */
 
 (function ( $ ) {
