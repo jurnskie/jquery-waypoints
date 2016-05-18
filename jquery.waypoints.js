@@ -1,5 +1,5 @@
 /**
- * Waypoints v1.0 - Add css classes on given waypoints, for animating via css transitions
+ * Waypoints v1.0 - Add css classes on given waypoints
  * http://github.com/jurnskie/jquery-waypoints
  */
 
@@ -32,11 +32,11 @@
            settings = $.extend({
                 scrollTopOffset         : 25,
                 addedClass     : 'animate',
-                menuClass      : '.main',
+                menuClass      : null,
                 activeOnWidth  : 700
            }, options),
-          scrollTop = win.scrollTop() + $(settings.menuClass).outerHeight() + settings.scrollTopOffset;
-
+          scrollTop = (settings.menuClass === null) ? 
+                win.scrollTop() + $('.' + settings.menuClass).outerHeight() + settings.scrollTopOffset : win.scrollTop()  + settings.scrollTopOffset;
 
        win.scroll(function(e){
          if(ww > settings.activeOnWidth){
